@@ -1,0 +1,276 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01-oct-2015, 12:35:23
+    Author     : victo
+*/
+
+header{
+    padding:10px;
+    border:1px solid #000;
+    background: rgba(60, 60, 60, 0.3);
+    margin-top:5px;
+    border-radius: 5px 5px 0 0 ;
+
+}
+a,a:visited{
+    color: white;
+    padding:2px;
+}
+#lang{
+    float:right;
+    width:10%;
+}
+.flag{
+    width: 25px;
+}
+#logo{
+    height:80px;
+    float:left;
+}
+header h1{
+    display:inline-block;
+    color: #FFF;
+    font-size: 3em;
+    font-family: 'Impact';
+    margin:0 ;
+    margin-top:10px;
+    margin-left:20px;
+
+}
+.header_tab{
+    padding:3px;
+    background: rgba(0,66,66,0.4);
+    border-radius:3px;
+    color:white;
+    width:99%;
+    border:1px solid rgba(0,0,0,0.5);
+    font-size: 18px;
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+}
+body{
+    font-family: 'Calibri', sans-serif;
+    font-weight:16px;
+    margin:auto;
+    min-width:1100px;
+    max-width:1100px;
+  background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px; 
+}
+aside{
+    background:#305359 ;
+    color:white;
+}
+aside h2{
+    background:#6f979e;
+    margin:0;
+    font-size: 18px;
+    padding:3px;
+    padding-left: 20px;
+    border-bottom:1px solid #2d3f42;
+}
+.aside_a{
+    text-decoration:none;
+    display:block;
+    color: white;
+    opacity: 0.7;
+    padding: 5px;
+    padding-left: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #2d3f42;
+    -webkit-transition: all 0.5s ease 0s ;
+    -moz-transition: all 0.5s ease 0s ;
+    -ms-transition: all 0.5s ease 0s ;
+    -o-transition: all 0.5s ease 0s ;
+    transition: all 0.5s ease 0s ;
+}
+.aside_a:hover{
+    -webkit-transition: all 0.5s ease 0s ;
+    -moz-transition: all 0.5s ease 0s ;
+    -ms-transition: all 0.5s ease 0s ;
+    -o-transition: all 0.5s ease 0s ;
+    transition: all 0.5s ease 0s ;
+    padding-left: 50px;
+    color: #2d3f42;
+    background: white;
+}
+nav{
+    background: rgba(103, 185, 200, 0.6);
+    height:30px;
+    font-weight:bold;
+    border:1px solid black;
+}
+nav a{
+    position:relative;
+    padding:6px;
+    padding-top:5px;
+    top:5px;
+    margin-left:10px;
+    color: white;
+    text-decoration:none;
+    -webkit-transition: all 0.5s ease 0s ;
+    -moz-transition: all 0.5s ease 0s ;
+    -ms-transition: all 0.5s ease 0s ;
+    -o-transition: all 0.5s ease 0s ;
+    transition: all 0.5s ease 0s ;
+}
+nav a:hover{
+    -webkit-transition: all 0.5s ease 0s ;
+    -moz-transition: all 0.5s ease 0s ;
+    -ms-transition: all 0.5s ease 0s ;
+    -o-transition: all 0.5s ease 0s ;
+    transition: all 0.5s ease 0s ;
+    color: rgba(0, 0, 0, 0.6);
+    background: rgba(255, 255, 255, 0.5);
+}
+
+label{ display:block; 
+       font-weight:bold;
+       margin-top:5px;
+}
+input, select{
+    background: rgba(103, 185, 200, 0.6);
+    color: rgba(255, 255, 255, 0.7);
+    border: 2px solid grey;
+}
+option{
+    background: rgba(27, 61, 79, 1);
+}                        
+section{
+    padding:5px;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    border:1px solid black;
+}
+#securitybox,#surprisebox{
+    display:none;
+}
+#shelves_b{
+    margin-left:10px;
+    width:45%;
+    float:left;
+}
+#boxForm{
+    float:left;
+    width:100%;
+}
+#boxForm fieldset{
+    width:30%;
+    float:left;
+    height:160px;
+}
+#inventory{
+    display:none;
+}
+.message{
+    text-align:center;
+    padding:5px;
+}
+.message a{
+    text-decoration: none;
+    padding:5px;
+    border-radius:3px;
+    background: #00cccc;
+    color: #FFF;
+}
+.message a:hover{
+    background:#FFF;
+    color: #00cccc;
+}
+input,select,fieldset{
+    padding: 3px;
+    border-radius: 3px;
+    border:1px solid black;
+}
+fieldset{ padding: 10px;}
+#color {display:none;}
+
+.inventory_tb{
+    margin:auto;
+    background: rgba(10,20,20,0.5);
+    text-align:center;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    border:1px solid rgba(10,20,20,0.8);
+}
+.inventory_tb td, .inventory_tb th{ padding:3px;}
+.inventory_tb th{
+    background:#006666;
+    color: white;
+}
+.inventory_tb td{
+    padding:5px;
+    text-decoration: none;;
+    border:none;
+    margin:0;
+
+}
+.inventory_tb tr {
+    -webkit-transition: all 0.5s ease 0s ;
+    -moz-transition: all 0.5s ease 0s ;
+    -ms-transition: all 0.5s ease 0s ;
+    -o-transition: all 0.5s ease 0s ;
+    transition: all 0.5s ease 0s ;
+}
+.inventory_tb tr:hover{
+    background:#3f8e8e;
+    color:white;
+    -webkit-transition: all 0.5s ease 0s ;
+    -moz-transition: all 0.5s ease 0s ;
+    -ms-transition: all 0.5s ease 0s ;
+    -o-transition: all 0.5s ease 0s ;
+    transition: all 0.5s ease 0s ;
+}
+footer{
+    background: rgba(103, 185, 200, 0.6);
+    padding:3px;
+    color:white;
+    text-align:center;
+    border:1px solid black;
+    border-radius: 0 0 5px 5px ;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+legend{
+    font-weight: bold;
+}
+
+#login_form{
+    text-align:center; 
+    background: rgba(32, 56, 64, 0.5);
+    width:40%;
+    margin:auto;
+    padding:10px;
+    border-radius:3px; 
+    border:1px solid black;
+    -moz-box-shadow: 0px 2px 5px #000000;
+    -webkit-box-shadow: 0px 2px 5px #000000; 
+    box-shadow: 0px 2px 5px #000000;
+}
+#register_form{
+    text-align:center; 
+    background: rgba(32, 56, 64, 0.5);
+    width:60%;
+    margin:auto;
+    padding:10px;
+    border-radius:3px; 
+    border:1px solid black;
+    -moz-box-shadow: 0px 2px 5px #000000;
+    -webkit-box-shadow: 0px 2px 5px #000000; 
+    box-shadow: 0px 2px 5px #000000;
+}
